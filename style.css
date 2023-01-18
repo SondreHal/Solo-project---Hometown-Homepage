@@ -1,0 +1,138 @@
+/* RED: #E63946
+LIGHT: #F1FAEE
+AQUA: #A8DADC
+LIGHT BLUE: #457B9D
+DARK BLUE: #1D3557 */
+
+* {
+	box-sizing: border-box;
+	font-family: Arial, Helvetica, sans-serif;
+	margin: 0;
+	padding: 0;
+	text-align: center;
+}
+
+body {
+	background-color: #e5e5e5;
+}
+
+.page-wrapper {
+	margin: 0 auto;
+	max-width: 720px;
+	width: 100%;
+}
+
+/* HEADER */
+header {
+	background-color: #e63946;
+	background-image: url('images/torshov-image.png');
+	background-repeat: no-repeat;
+	background-size: cover;
+	padding: 119px 12px;
+}
+
+header h1,
+header h2 {
+	border-radius: 10px;
+	color: #ffffff;
+	line-height: 36.8px;
+	margin: 0 auto;
+	padding-block: 4px;
+	width: fit-content;
+}
+header h1 {
+	background-color: #1d3557;
+	font-size: 32px;
+	font-weight: 700;
+	margin-bottom: 11px;
+	padding-inline: 10px;
+}
+header h2 {
+	background-color: #457b9d;
+	font-size: 18.72px;
+	font-weight: 700;
+	line-height: 21.53px;
+	padding-inline: 25px;
+}
+
+/* MAIN */
+main {
+	background-color: #f1faee;
+	color: #1d3557;
+	padding: 40px 12px 10px;
+}
+
+main h3 {
+	font-size: 24px;
+	font-weight: 700;
+	line-height: 27.6px;
+	margin-bottom: 48px;
+}
+
+.activity-wrapper {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-around;
+}
+.activity-wrapper p {
+	max-width: 198px;
+}
+
+.activity-column :nth-child(1) {
+	margin-bottom: 22px;
+}
+.activity-column :nth-child(2) {
+	font-size: 16px;
+	font-weight: 700;
+	line-height: 18.4px;
+	margin-bottom: 22px;
+}
+.activity-column :nth-child(3) {
+	font-size: 16px;
+	font-weight: 400;
+	line-height: 18.4px;
+	margin-bottom: 30px;
+}
+
+/* FOOTER */
+footer {
+	background-color: #ffffff;
+	padding: 50px 12px;
+}
+
+.guide-card {
+	align-items: center;
+	background-color: #a8dadc;
+	border-radius: 10px;
+	box-shadow: 0px 6px 0px #1d3557;
+	color: #1d3557;
+	display: flex;
+	justify-content: center;
+	flex-wrap: wrap;
+	gap: 5px;
+	margin: 0 auto;
+	padding: 22px 12px;
+	width: fit-content;
+}
+
+.guide-text {
+	max-width: 189px;
+}
+.guide-text :nth-child(1) {
+	font-size: 24px;
+	font-weight: 700;
+	line-height: 27.6px;
+	margin-bottom: 20px;
+}
+.guide-text :nth-child(2) {
+	font-size: 16px;
+	font-style: italic;
+	font-weight: 400;
+	line-height: 18.4px;
+	margin-bottom: 26px;
+}
+.guide-text :nth-child(3) {
+	font-size: 16px;
+	font-weight: 700;
+	line-height: 18.4px;
+}
