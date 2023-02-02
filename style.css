@@ -53,6 +53,7 @@ header h2 {
 	font-size: 18.72px;
 	font-weight: 700;
 	line-height: 21.53px;
+	max-width: 400px;
 	padding-inline: 25px;
 }
 
