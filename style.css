@@ -6,7 +6,7 @@
 
 body {
 	font-family: Arial, Helvetica, sans-serif;
-	background-color: #e5e5e5;
+	background: #e5e5e5;
 }
 
 .page-wrapper {
@@ -17,7 +17,7 @@ body {
 
 /* HEADER */
 header {
-	background-color: #e63946;
+	background: #e63946;
 	background-image: url('images/torshov-image.png');
 	background-position: center;
 	background-repeat: no-repeat;
@@ -40,6 +40,7 @@ header h1 {
 	font-weight: 700;
 	margin-bottom: 11px;
 	padding-inline: 10px;
+	line-height: 36.8px;
 }
 header h2 {
 	background-color: #457b9d;
@@ -48,6 +49,7 @@ header h2 {
 	line-height: 21.53px;
 	max-width: 400px;
 	padding-inline: 25px;
+	text-align: center;
 }
 
 /* MAIN */
@@ -74,19 +76,18 @@ main h3 {
 	max-width: 198px;
 }
 
-.activity-column :nth-child(1) {
+.activity-column img {
 	margin-bottom: 22px;
 }
-.activity-column :nth-child(2) {
+
+.activity-column p {
 	font-size: 16px;
 	font-weight: 700;
 	line-height: 18.4px;
 	margin-bottom: 22px;
 }
-.activity-column :nth-child(3) {
-	font-size: 16px;
+.activity-column p:last-of-type {
 	font-weight: 400;
-	line-height: 18.4px;
 	margin-bottom: 30px;
 }
 
@@ -115,20 +116,20 @@ footer {
 .guide-text {
 	max-width: 189px;
 }
-.guide-text :nth-child(1) {
+.guide-text h3 {
 	font-size: 24px;
 	font-weight: 700;
 	line-height: 27.6px;
 	margin-bottom: 20px;
 }
-.guide-text :nth-child(2) {
+.guide-text p {
 	font-size: 16px;
 	font-style: italic;
 	font-weight: 400;
 	line-height: 18.4px;
 	margin-bottom: 26px;
 }
-.guide-text :nth-child(3) {
+.guide-text h4 {
 	font-size: 16px;
 	font-weight: 700;
 	line-height: 18.4px;
