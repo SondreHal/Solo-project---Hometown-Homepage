@@ -134,3 +134,15 @@ footer {
 	font-weight: 700;
 	line-height: 18.4px;
 }
+
+@media screen and (max-width: 600px) {
+	header {
+		padding: 4rem 0.75rem;
+	}
+}
+
+@media screen and (max-width: 400px) {
+	header {
+		padding: 3rem 0.75rem;
+	}
+}
